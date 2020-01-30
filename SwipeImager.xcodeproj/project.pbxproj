@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96CBAF123E317AE002ECA4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CBAF023E317AE002ECA4D /* AppDelegate.swift */; };
+		A96CBAF323E317AE002ECA4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CBAF223E317AE002ECA4D /* ViewController.swift */; };
+		A96CBAF623E317AE002ECA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CBAF423E317AE002ECA4D /* Main.storyboard */; };
+		A96CBAF823E317D5002ECA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96CBAF723E317D5002ECA4D /* Assets.xcassets */; };
+		A96CBAFB23E317D5002ECA4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CBAF923E317D5002ECA4D /* LaunchScreen.storyboard */; };
+		A96CBB0623E317DD002ECA4D /* SwipeImagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CBB0523E317DD002ECA4D /* SwipeImagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96CBB0223E317DD002ECA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96CBAE523E317AD002ECA4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96CBAEC23E317AD002ECA4D;
+			remoteInfo = SwipeImager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A96CBAED23E317AD002ECA4D /* SwipeImager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeImager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96CBAF023E317AE002ECA4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A96CBAF223E317AE002ECA4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A96CBAF523E317AE002ECA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A96CBAF723E317D5002ECA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96CBAFA23E317D5002ECA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A96CBAFC23E317D5002ECA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96CBB0123E317DD002ECA4D /* SwipeImagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeImagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96CBB0523E317DD002ECA4D /* SwipeImagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeImagerTests.swift; sourceTree = "<group>"; };
+		A96CBB0723E317DD002ECA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96CBAEA23E317AD002ECA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96CBAFE23E317DD002ECA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96CBAE423E317AD002ECA4D = {
+			isa = PBXGroup;
+			children = (
+				A96CBAEF23E317AE002ECA4D /* SwipeImager */,
+				A96CBB0423E317DD002ECA4D /* SwipeImagerTests */,
+				A96CBAEE23E317AD002ECA4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96CBAEE23E317AD002ECA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96CBAED23E317AD002ECA4D /* SwipeImager.app */,
+				A96CBB0123E317DD002ECA4D /* SwipeImagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96CBAEF23E317AE002ECA4D /* SwipeImager */ = {
+			isa = PBXGroup;
+			children = (
+				A96CBAF023E317AE002ECA4D /* AppDelegate.swift */,
+				A96CBAF223E317AE002ECA4D /* ViewController.swift */,
+				A96CBAF423E317AE002ECA4D /* Main.storyboard */,
+				A96CBAF723E317D5002ECA4D /* Assets.xcassets */,
+				A96CBAF923E317D5002ECA4D /* LaunchScreen.storyboard */,
+				A96CBAFC23E317D5002ECA4D /* Info.plist */,
+			);
+			path = SwipeImager;
+			sourceTree = "<group>";
+		};
+		A96CBB0423E317DD002ECA4D /* SwipeImagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A96CBB0523E317DD002ECA4D /* SwipeImagerTests.swift */,
+				A96CBB0723E317DD002ECA4D /* Info.plist */,
+			);
+			path = SwipeImagerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96CBAEC23E317AD002ECA4D /* SwipeImager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96CBB0A23E317DD002ECA4D /* Build configuration list for PBXNativeTarget "SwipeImager" */;
+			buildPhases = (
+				A96CBAE923E317AD002ECA4D /* Sources */,
+				A96CBAEA23E317AD002ECA4D /* Frameworks */,
+				A96CBAEB23E317AD002ECA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeImager;
+			productName = SwipeImager;
+			productReference = A96CBAED23E317AD002ECA4D /* SwipeImager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96CBB0023E317DD002ECA4D /* SwipeImagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96CBB0D23E317DD002ECA4D /* Build configuration list for PBXNativeTarget "SwipeImagerTests" */;
+			buildPhases = (
+				A96CBAFD23E317DD002ECA4D /* Sources */,
+				A96CBAFE23E317DD002ECA4D /* Frameworks */,
+				A96CBAFF23E317DD002ECA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96CBB0323E317DD002ECA4D /* PBXTargetDependency */,
+			);
+			name = SwipeImagerTests;
+			productName = SwipeImagerTests;
+			productReference = A96CBB0123E317DD002ECA4D /* SwipeImagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96CBAE523E317AD002ECA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jeroen Dunselman";
+				TargetAttributes = {
+					A96CBAEC23E317AD002ECA4D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A96CBB0023E317DD002ECA4D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A96CBAEC23E317AD002ECA4D;
+					};
+				};
+			};
+			buildConfigurationList = A96CBAE823E317AD002ECA4D /* Build configuration list for PBXProject "SwipeImager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A96CBAE423E317AD002ECA4D;
+			productRefGroup = A96CBAEE23E317AD002ECA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96CBAEC23E317AD002ECA4D /* SwipeImager */,
+				A96CBB0023E317DD002ECA4D /* SwipeImagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96CBAEB23E317AD002ECA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96CBAFB23E317D5002ECA4D /* LaunchScreen.storyboard in Resources */,
+				A96CBAF823E317D5002ECA4D /* Assets.xcassets in Resources */,
+				A96CBAF623E317AE002ECA4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96CBAFF23E317DD002ECA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96CBAE923E317AD002ECA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96CBAF323E317AE002ECA4D /* ViewController.swift in Sources */,
+				A96CBAF123E317AE002ECA4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96CBAFD23E317DD002ECA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96CBB0623E317DD002ECA4D /* SwipeImagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A96CBB0323E317DD002ECA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96CBAEC23E317AD002ECA4D /* SwipeImager */;
+			targetProxy = A96CBB0223E317DD002ECA4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96CBAF423E317AE002ECA4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96CBAF523E317AE002ECA4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A96CBAF923E317D5002ECA4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96CBAFA23E317D5002ECA4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96CBB0823E317DD002ECA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A96CBB0923E317DD002ECA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96CBB0B23E317DD002ECA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeImager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopoeia.SwipeImager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A96CBB0C23E317DD002ECA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeImager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopoeia.SwipeImager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A96CBB0E23E317DD002ECA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeImagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopoeia.SwipeImagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeImager.app/SwipeImager";
+			};
+			name = Debug;
+		};
+		A96CBB0F23E317DD002ECA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeImagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopoeia.SwipeImagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeImager.app/SwipeImager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96CBAE823E317AD002ECA4D /* Build configuration list for PBXProject "SwipeImager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96CBB0823E317DD002ECA4D /* Debug */,
+				A96CBB0923E317DD002ECA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96CBB0A23E317DD002ECA4D /* Build configuration list for PBXNativeTarget "SwipeImager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96CBB0B23E317DD002ECA4D /* Debug */,
+				A96CBB0C23E317DD002ECA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96CBB0D23E317DD002ECA4D /* Build configuration list for PBXNativeTarget "SwipeImagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96CBB0E23E317DD002ECA4D /* Debug */,
+				A96CBB0F23E317DD002ECA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96CBAE523E317AD002ECA4D /* Project object */;
+}
