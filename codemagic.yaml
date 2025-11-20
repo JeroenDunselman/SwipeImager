@@ -1,4 +1,50 @@
-   scripts:
-      - name: List all schemes (debug)
+workflows:
+  ios-swipeimager:
+    name: SwipeImager iOS Build (free Apple ID)
+    instance_type: mac_mini_m1
+    max_build_duration: 120
+    environment:
+      vars:
+        XCODE_PROJECT: "SwipeImager.xcodeproj"
+        XCODE_SCHEME: "SwipeImager"
+      xcode: latest
+
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: master
+          include: true
+          source: true
+
+    scripts:
+      - name: Set up free Apple ID signing + build IPA
         script: |
-          xcodebuild -list -project "$CM_BUILD_DIR/SwipeImager.xcodeproj"
+          # Free Apple ID signing (werkt altijd)
+          app-store-connect fetch-signing-files "com.onomatopoeia.SwipeImager" --type IOS_APP_ADHOC --create
+
+          # Build + archive
+          xcodebuild -project SwipeImager.xcodeproj \
+                     -scheme SwipeImager \
+                     -configuration Release \
+                     -allowProvisioningUpdates \
+                     -archivePath build/SwipeImager.xcarchive \
+                     archive
+
+          # Export IPA (Codemagic maakt automatisch exportOptions.plist aan bij free signing)
+          xcodebuild -exportArchive \
+                     -archivePath build/SwipeImager.xcarchive \
+                     -exportOptionsPlist /tmp/export_options.plist \
+                     -exportPath build/ipa \
+                     -allowProvisioningUpdates
+
+    artifacts:
+      - build/ipa/*.ipa
+
+    publishing:
+      email:
+        recipients:
+          - jouw@email.com   # je mail hier
+        notify:
+          success: true
+          failure: true
