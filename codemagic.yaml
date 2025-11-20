@@ -1,0 +1,45 @@
+workflows:
+  ios-swipeimager:
+    name: SwipeImager iOS Build
+    instance_type: mac_mini_m1
+    max_build_duration: 60
+    environment:
+      vars:
+        XCODE_PROJECT: "SwipeImager.xcodeproj"    # jouw project
+        XCODE_SCHEME: "SwipeImager"               # controleer of dit exact je scheme-naam is (open Xcode → Product → Scheme)
+      xcode: latest
+
+    triggering:
+      events:
+        - push
+        - tag
+      branch_patterns:
+        - pattern: '*'
+          include: true
+          source: true
+
+    scripts:
+      - name: Build IPA (pure xcodeproj)
+        script: |
+          xcodebuild -project "$CM_BUILD_DIR/SwipeImager.xcodeproj" \
+                     -scheme "$XCODE_SCHEME" \
+                     -configuration Release \
+                     -allowProvisioningUpdates \
+                     archive -archivePath build/SwipeImager.xcarchive
+
+          xcodebuild -exportArchive \
+                     -archivePath build/SwipeImager.xcarchive \
+                     -exportOptionsPlist exportOptions.plist \
+                     -exportPath build/ipa \
+                     -allowProvisioningUpdates
+
+    artifacts:
+      - build/ipa/*.ipa
+
+    publishing:
+      email:
+        recipients:
+          - jouw@email.com   # vervang door je eigen e-mailadres
+        notify:
+          success: true
+          failure: true
